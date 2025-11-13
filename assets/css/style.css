@@ -2654,7 +2654,7 @@ body.it-magic-cursor #magic-cursor {
   color: var(--it-theme-2);
 }
 .it-header__height {
-  height: 90px;
+  height: 130px;
   padding: 10px 0;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
@@ -10777,3 +10777,21 @@ p.checkout-coupon input[type=text]:focus {
 }
 
 /*# sourceMappingURL=style.css.map */
+.carousel-caption {
+  /* background: rgba(0,0,0,0.65);  */
+  border-radius: 8px;
+  padding: 20px 30px;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.9);
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 40px; /* you can adjust */
+  width: auto;
+  max-width: 80%;
+}
+.carousel-caption h5,
+.carousel-caption p {
+  color: #fff;
+  font-weight: bold;
+}
